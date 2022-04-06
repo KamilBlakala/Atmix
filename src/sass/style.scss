@@ -236,7 +236,10 @@ html {
 	min-height: 55vh;
 	padding-top: 3.5em;
 	text-align: center;
-	@include heroImages('../../dist/img/heade_mini.png');
+	background-image: $black-gradient, url('../../dist/img/heade_mini.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 	&__heading {
 		font-size: 4.5rem;
 		color: $pure-white;
@@ -755,7 +758,7 @@ html {
 		display: flex;
 	}
 	.header {
-		background-image: $wave-img-gradient, url('../../dist/img/header_max.png');
+		background-image: $black-gradient, url('../../dist/img/header_max.png');
 		&__heading {
 			font-size: 9rem;
 			letter-spacing: 7px;
