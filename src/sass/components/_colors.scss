@@ -1,0 +1,32 @@
+$main-color: #0433bf;
+$light-main: #4973f2;
+$wool: #dfe0f2;
+$pure-white: #fff;
+$sand: #ffc73b;
+
+$sand-gradient: linear-gradient(
+	45deg,
+	rgba(255, 185, 66, 0.35),
+	rgba(92, 255, 160, 0.35)
+);
+$blue-gradient: linear-gradient(to right, rgba(82, 194, 52, 0.55), #06170067);
+$nav-gradient-solid: linear-gradient(
+	339deg,
+	rgba(73, 115, 242, 1) 0%,
+	rgba(223, 224, 242, 1) 100%
+);
+$wave-gradient: linear-gradient(
+	339deg,
+	rgba(252, 255, 117, 1) 0%,
+	rgba(66, 153, 101, 1) 100%
+);
+$wave-img-gradient: linear-gradient(
+	6deg,
+	rgba(73, 115, 242, 0.9415021008403361) 0%,
+	rgba(255, 255, 255, 0.1825105042016807) 100%
+);
+$price-color: linear-gradient(
+	0deg,
+	rgba(34, 193, 195, 0.2) 0%,
+	rgba(73, 115, 242, 0.5) 100%
+);
