@@ -24,4 +24,4 @@ $ npm -i
 $ gulp
 ```
 ### or
-See on development - [link](https://onet.pl)
+See on development - [link](https://kamilblakala.github.io/Atmix/)
