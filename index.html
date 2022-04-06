@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atmix - firma sprzątająca</title>
+    <link rel="icon" href="./dist/img/favicon.png" type="image/png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <!-- monserat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="./dist/css/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <script src="https://kit.fontawesome.com/78d546eb9f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <button class="burger-btn">
+        <div class="burger-btn__box">
+            <div class="burger-btn__bars-one"></div>
+            <div class="burger-btn__bars-two"></div>
+            <div class="burger-btn__bars-three"></div>
+        </div>
+    </button>
+    <div class="scrollUp">
+        <i class="fa-solid fa-arrow-up scroll-special"></i>
+    </div>
+    <nav class="nav__mobile">
+        <div class="nav__items">
+            <a class="nav__mobile-item" href="#services">usługi</a>
+            <a class="nav__mobile-item" href="#price">cennik</a>
+            <a class="nav__mobile-item" href="#cowork">współpraca</a>
+            <a class="nav__mobile-item" href="#reference">referencje</a>
+            <a class="nav__mobile-item" href="#workplace">Praca</a>
+            <a class="nav__mobile-item" href="#contact">kontakt</a>
+        </div>
+    </nav>
+    <nav class='nav__desktop'>
+        <div class="nav__desktop-items">
+            <a href="#"><img src="./dist/img/logo_atmixmini.png" alt="Logo atmix" class="nav__desktop-logo"></a>
+            <a class="nav__desktop-item" href="#services">usługi</a>
+            <a class="nav__desktop-item" href="#price">cennik</a>
+            <a class="nav__desktop-item" href="#cowork">współpraca</a>
+            <a class="nav__desktop-item" href="#reference">referencje</a>
+            <a class="nav__desktop-item" href="#workplace">praca</a>
+            <a class="nav__desktop-item" href="#contact">kontakt</a>
+        </div>
+    </nav>
+    <header class="header">
+        <h1 class="header__heading">Atmix</h1>
+        <p class="header__text">Firma sprzątająca - Katowice i okolice</p>
+        <a href="#price" class="header__callto">Poznaj nasz cennik</a>
+    </header>
+    <main>
+        <section class="services section-padding" id="services">
+            <h2 class="section-heading">Usługi</h2>
+            <div class="services__tabs">
+                <div class="services__tab services__tab--active" data-serv-target="#livingroom">Salon
+                </div>
+                <div class="services__tab" data-serv-target="#kitchen">Kuchnia</div>
+                <div class="services__tab" data-serv-target="#bathroom">Łazienka</div>
+                <div class="services__tab" data-serv-target="#bedroom">Sypialnia</div>
+            </div>
+            <div class="services__container">
+                <button class="services__container-leftBtn"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="services__container-rightBtn"><i class="fa-solid fa-arrow-right"></i></button>
+                <div class="livingroom services__container-box services__container-box--active" data-serv-content
+                    id="livingroom">
+                    <div class="services__special services__special-1of1"><i
+                            class="fa-solid fa-angle-right"></i>Odkurzanie / Mycie podłóg</div>
+                    <div class="services__special services__special-2of1"><i
+                            class="fa-solid fa-angle-right"></i>Wycieranie kurzu z mebli i parapetów</div>
+                    <div class="services__special services__special-3of1"><i
+                            class="fa-solid fa-angle-right"></i>Odkurzanie ścian</div>
+                    <div class="services__special services__special-4of1"><i class="fa-solid fa-angle-right"></i>Mycie
+                        luster</div>
+                    <div class="services__special services__special-5of1"><i
+                            class="fa-solid fa-angle-right"></i>Przecieranie mebli</div>
+                    <div class="services__special services__special-6of1"><i class="fa-solid fa-angle-right"></i>Mycie
+                        drzwi</div>
+                    <div class="services__special services__special-7of1"><i class="fa-solid fa-angle-right"></i>Mycie
+                        włączników i gniazdek</div>
+                    <div class="services__special services__special-8of1"><i
+                            class="fa-solid fa-angle-right"></i>Sprzątanie ogólne i wiele innych!</div>
+                    <div class="services__container-box--one"></div>
+                </div>
+                <div class="kitchen services__container-box" data-serv-content id="kitchen">
+                    <div class="services__special services__special-1of2"><i
+                            class="fa-solid fa-angle-right"></i>Przecieranie sprzętów AGD</div>
+                    <div class="services__special services__special-2of2"><i class="fa-solid fa-angle-right"></i>Mycie
+                        Blatów</div>
+                    <div class="services__special services__special-3of2"><i class="fa-solid fa-angle-right"></i>Mycie
+                        szafek kuchennych i mebli</div>
+                    <div class="services__special services__special-4of2"><i class="fa-solid fa-angle-right"></i>Mycie i
+                        odkurzanie podłóg</div>
+                    <div class="services__special services__special-5of2"><i
+                            class="fa-solid fa-angle-right"></i>Czyszczenie zlewozmywaka</div>
+                    <div class="services__special services__special-6of2"><i
+                            class="fa-solid fa-angle-right"></i>Przecieranie lamp</div>
+                    <div class="services__special services__special-7of2"><i
+                            class="fa-solid fa-angle-right"></i>Przecieranie okapu</div>
+                    <div class="services__special services__special-8of2"><i
+                            class="fa-solid fa-angle-right"></i>Sprzątanie ogólne i wiele innych!</div>
+                    <div class="services__container-box--two"></div>
+                </div>
+                <div class="bathroom services__container-box" data-serv-content id="bathroom">
+                    <div class="services__special services__special-1of3"><i
+                            class="fa-solid fa-angle-right"></i>Przecieranie kafelek</div>
+                    <div class="services__special services__special-2of3"><i class="fa-solid fa-angle-right"></i>Mycie
+                        podłóg</div>
+                    <div class="services__special services__special-3of3"><i
+                            class="fa-solid fa-angle-right"></i>Dezynfekcja WC</div>
+                    <div class="services__special services__special-4of3"><i class="fa-solid fa-angle-right"></i>Mycie
+                        luster</div>
+                    <div class="services__special services__special-5of3"><i
+                            class="fa-solid fa-angle-right"></i>Przecieranie mebli i półek</div>
+                    <div class="services__special services__special-6of3"><i class="fa-solid fa-angle-right"></i>Mycie
+                        kabiny/wanny</div>
+                    <div class="services__special services__special-7of3"><i
+                            class="fa-solid fa-angle-right"></i>Czyszczenie armatury</div>
+                    <div class="services__special services__special-8of3"><i
+                            class="fa-solid fa-angle-right"></i>Sprzątanie ogólne i wiele innych!</div>
+                    <div class="services__container-box--three"></div>
+                </div>
+                <div class="bedroom services__container-box" data-serv-content id="bedroom">
+                    <div class="services__special services__special-1of4"><i
+                            class="fa-solid fa-angle-right"></i>Odkurzanie / Mycie podłóg</div>
+                    <div class="services__special services__special-2of4"><i
+                            class="fa-solid fa-angle-right"></i>Wycieranie kurzu z mebli i parapetów</div>
+                    <div class="services__special services__special-3of4"><i
+                            class="fa-solid fa-angle-right"></i>Odkurzanie ścian</div>
+                    <div class="services__special services__special-4of4"><i class="fa-solid fa-angle-right"></i>Mycie
+                        luster</div>
+                    <div class="services__special services__special-5of4"><i class="fa-solid fa-angle-right"></i>Mycie
+                        drzwi</div>
+                    <div class="services__special services__special-6of4"><i class="fa-solid fa-angle-right"></i>Mycie
+                        włączników i gniazdek</div>
+                    <div class="services__special services__special-7of4"><i
+                            class="fa-solid fa-angle-right"></i>Przecieranie mebli</div>
+                    <div class="services__special services__special-8of4"><i
+                            class="fa-solid fa-angle-right"></i>Sprzątanie ogólne i wiele innych!</div>
+                    <div class="services__container-box--four"></div>
+                </div>
+            </div>
+        </section>
+        <section class="prices section-padding" id="price">
+            <h2 class="section-heading">Cennik</h2>
+            <div class="prices__tabs">
+                <div class="prices__tab prices__tab--active" data-tab-target="#home"><i
+                        class="fa-solid fa-house"></i>Dom
+                </div>
+                <div class="prices__tab" data-tab-target="#company"><i class="fa-solid fa-building"></i>Firma</div>
+            </div>
+            <div class="prices__container">
+                <div class="prices__items prices__items--active" data-tab-content id="home">
+                    <div class="prices__home">
+                        <div class="prices__card">
+                            <div class="prices__card-header">
+                                <i class="fa-solid fa-house-chimney"></i>
+                                <span class="prices__card-area prices__card-area--special">Powierzchnia</span>
+                                <span class="prices__card-text">35m2 - 50m2</span>
+                            </div>
+                            <div class="prices__card-header">
+                                <span class="prices__card-area">Sprzątanie jednorazowe</span>
+                                <span class="prices__card-text">od 150 - 250 zł</span>
+                            </div>
+                            <div class="prices__card-header">
+                                <span class="prices__card-area">Sprzątanie 4x w miesiącu</span>
+                                <span class="prices__card-text">440 zł</span>
+                            </div>
+                        </div>
+                        <div class="prices__card">
+                            <div class="prices__card-header">
+                                <i class="fa-solid fa-building"></i>
+                                <span class="prices__card-area prices__card-area--special">Powierzchnia</span>
+                                <span class="prices__card-text">50m2 - 100m2</span>
+                            </div>
+                            <div class="prices__card-header">
+                                <span class="prices__card-area">Sprzątanie jednorazowe</span>
+                                <span class="prices__card-text">od 250 - 400 zł</span>
+                            </div>
+                            <div class="prices__card-header">
+                                <span class="prices__card-area">Sprzątanie 4x w miesiącu</span>
+                                <span class="prices__card-text">560 zł</span>
+                            </div>
+                        </div>
+                        <div class="prices__card">
+                            <div class="prices__card-header">
+                                <i class="fa-solid fa-hotel"></i>
+                                <span class="prices__card-area prices__card-area--special">Powierzchnia</span>
+                                <span class="prices__card-text">100m2 - 150m2</span>
+                            </div>
+                            <div class="prices__card-header">
+                                <span class="prices__card-area">Sprzątanie jednorazowe</span>
+                                <span class="prices__card-text">od 400 - 550 zł</span>
+                            </div>
+                            <div class="prices__card-header">
+                                <span class="prices__card-area">Sprzątanie 4x w miesiącu</span>
+                                <span class="prices__card-text">640 zł</span>
+                            </div>
+                        </div>
+                        <div class="prices__card">
+                            <div class="prices__card-header">
+                                <i class="fa-solid fa-city"></i>
+                                <span class="prices__card-area prices__card-area--special">Powierzchnia</span>
+                                <span class="prices__card-text">150m2+</span>
+                            </div>
+                            <div class="prices__card-header">
+                                <span class="prices__card-area">Sprzątanie jednorazowe</span>
+                                <span class="prices__card-text">od 550 zł</span>
+                            </div>
+                            <div class="prices__card-header">
+                                <span class="prices__card-area">Sprzątanie 4x w miesiącu</span>
+                                <span class="prices__card-text">od 880 zł</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="prices__items" data-tab-content id="company">
+                    <div class="prices__company">
+                        <h3 class="prices__company-heading">Oferta utrzymania czystości</h3>
+                        <p class="prices__company-text">Koszt sprzątania biura wynosi od 0,17 złoty za 1 m<sup>2</sup>,
+                            cena
+                            uzależniona
+                            jest od częstotliwości sprzątania oraz jej
+                            powierzchni.</p>
+                        <h3 class="prices__company-heading">Przykładowy cennik:</h3>
+                        <p class="prices__company-text">Biuro o powierzchni ok. 1000m<sup>2</sup> / 3 razy w tygodniu z
+                            dwoma
+                            pomieszczeniami sanitarnymi WC męsko/damskie oraz
+                            pomieszczeniem jadalno-kuchennym.
+                            Miesięczny koszt netto wynosi 2660,00 zł netto.
+                        </p>
+                        <h3 class="prices__company-heading">W zakres obowiązków wykonanej usługi wchodzi:</h3>
+                        <div class="prices__company-ul">
+                            <ul>
+                                <li>Opróżnianie, czyszczenie i mycie koszy na śmieci</li>
+                                <li>Wycieranie biurek, ław, stołów itp.</li>
+                                <li>Odkurzanie wykładzin i dywanów</li>
+                                <li>Zamiatanie podłóg i posadzek</li>
+                                <li>Mycie podłóg i posadzek</li>
+                                <li>Mycie klatki schodowej</li>
+                                <li>Wycieranie, odtłuszczanie i dezynfekcja klamek</li>
+                                <li>Czyszczenie aparatów telefonicznych</li>
+                            </ul>
+                            <ul>
+                                <li>Mycie kompleksów sanitarnych i ich dezynfekcja</li>
+                                <li>Mycie balustrad i poręczy schodów</li>
+                                <li>Usuwanie kurzy</li>
+                                <li>Dostarczenie oraz uzupełnianie na bieżąco środków toaletowych i odświeżających
+                                    (koszt zakupu środków pokrywa zamawiający)</li>
+                                <li>Odkurzanie i mycie wycieraczek</li>
+                                <li>Opróżnianie niszczarek, wymiana worków, wyrzucanie odpadów papieru z urządzeń (koszt
+                                    worków pokrywa zamawiający)</li>
+                                <li>Utrzymanie w czystości sprzętów AGD w kuchni.</li>
+                                <li>Zamiatanie schodów przed wejściem do budynku ok. 5m2</li>
+                            </ul>
+                            <ul>
+                                <li>Wycieranie sprzętów biurowych</li>
+                                <li>Odkurzanie mebli tapicerowanych</li>
+                                <li>Mycie drzwi i luster na bieżąco</li>
+                                <li>Odkurzanie ścian raz na dwa miesiące w cenie</li>
+                                <li>Utrzymanie czystości na korytarzach i schodach uwzględnionych w metrażu biura</li>
+                                <li>Przecieranie mebli biurowych na bieżąco, raz w miesiącu mycie i konserwacja</li>
+                                <li>Odkurzanie mebli tapicerowanych</li>
+                                <li>Na wszelkie dodatkowe pytania odpowiemy w wiadomości prywatnej</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="cowork" id="cowork">
+            <div class="wrapper">
+                <h2 class="section-heading">współpraca</h2>
+                <div class="cowork__cards section-padding">
+                    <div class="cowork__card">
+                        <div class="cowork__card-img cowork__card-img--one"></div>
+                        <div class="cowork__card-text">
+                            <p class="cowork__card-text--span">ATMIX jest fima lokalną. Założoną
+                                w 2007 roku.</p>
+                            <p>Nasz zespół składa się z uczciwych i świetnie przeszkolonych ludzi, których referencje i
+                                doświadczenie może być
+                                sprawdzone. Zapraszamy do współpracy i gwarantujemy satysfakcję z proponowanych przez
+                                nas usług. Sprawna komunikacja pomiędzy współpracownikami i dobra znajomość potrzeb
+                                klienta znacznie przyśpieszają procesy twórcze
+                                i gwarantują wysoki poziom świadczonych usług, dlatego tworzymy stałe zespoły zadaniowe
+                                dla klientów.</p>
+                        </div>
+                    </div>
+                    <div class="cowork__card">
+                        <div class="cowork__card-img cowork__card-img--second"></div>
+                        <div class="cowork__card-text">
+                            <p class="cowork__card-text--span">Wszystkie zlecenia realizujemy przy zachowaniu
+                                elastyczności w działaniu, uwzględniając
+                                indywidualne potrzeby klienta.</p>
+                            <p>Twoja satysfakcja - będzie naszą satysfakcją. Zapewniamy swoim Klientom produkty i
+                                realizacje najwyższej jakości. Naszą firmę cechuje profesjonalizm i perfekcjonizm.
+                                Gwarantujemy 100% zadowolenia i dyskrecji.</p>
+                        </div>
+                    </div>
+                    <div class="cowork__card">
+                        <div class="cowork__card-img cowork__card-img--third"></div>
+                        <div class="cowork__card-text">
+                            <p class="cowork__card-text--span">Posiadamy ubezpieczenie OC</p>
+                            <p>M.in szkody w mieniu
+                                ruchomym, powierzonym w celu wykonania usługi PKD (81.21.Z) na kwotę 200
+                                000,00zł. Dobra opinia naszych Klientów jest dla nas najważniejsza. Dlatego dużo czasu
+                                poświęcamy na rozwój naszych własnych
+                                doświadczeń, aby móc sprostać nawet najbardziej wymagającym potrzebom.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="references" id="reference">
+            <div class="wrapper">
+                <h2 class="section-heading">Referencje</h2>
+                <div class="references__boxs">
+                    <div class="references__box">
+                        <a href="./dist/img/refer1.jpg" data-lightbox="reference_gallery"><img
+                                src="./dist/img/refer1.jpg"
+                                alt="Atmix referencje - Kancelaria Adwkokacka - Ożarowska"></a>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="references__box"><a href="./dist/img/ref2.jpg" data-lightbox="reference_gallery"><img
+                                src="./dist/img/ref2.jpg" alt="Atmix referencje - Tescoma"></a>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="references__box"><a href="./dist/img/ref3.jpg" data-lightbox="reference_gallery"><img
+                                src="./dist/img/ref3.jpg" alt="Atmix referencje - Mosty katowice"></a>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="references__box"><a href="./dist/img/ref4.jpg" data-lightbox="reference_gallery"><img
+                                src="./dist/img/ref4.jpg" alt="Atmix referencje - Euro-Business s.c."></a>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="references__box"><a href="./dist/img/ref5.jpg" data-lightbox="reference_gallery"><img
+                                src="./dist/img/ref5.jpg" alt="Atmix referencje - Proximetry"></a>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="references__box"><a href="./dist/img/ref5.jpg" data-lightbox="reference_gallery"><img
+                                src="./dist/img/ref6.jpg" alt="Atmix referencje - RegielRiewe"></a>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="workplace" id="workplace">
+            <h2 class="section-heading">Dołacz do nas</h2>
+            <div class="workplace__join">
+                <p class="workplace__join-text">Jeżeli chcesz z nami pracować, wyślij swoje CV na adres:</p>
+                <p class="workplace__join-text--mail"><i class="fa-solid fa-envelope"></i><a href="mailto: trojok@op.pl"
+                        target="_blank">trojok@op.pl</a>
+                </p>
+            </div>
+        </section>
+        <section class="contact wrapper" id="contact">
+            <h2 class="section-heading">kontakt</h2>
+            <div class="contact__boxs">
+                <div class="contact__box contact__box-left">
+                    <div class="contact__left">
+                        <p class="contact__left-circle"><i class="fa-solid fa-location-dot"></i></p>
+                        <p class="contact__left-heading">Adres</p>
+                        <p class="contact__left-text">40-535 Katowice</p>
+                        <p class="contact__left-text">ul. Kanarków 2c/6</p>
+                    </div>
+                    <div class="contact__left">
+                        <p class="contact__left-circle"><i class="fa-solid fa-envelope"></i></p>
+                        <p class="contact__left-heading">Email</p>
+                        <p class="contact__left-text"><a href="mailto: trojok@op.pl" target="_blank">trojok@op.pl</a>
+                        </p>
+                    </div>
+                    <div class="contact__left">
+                        <p class="contact__left-circle"><i class="fa-solid fa-mobile-screen-button"></i></p>
+                        <p class="contact__left-heading">Zadzwoń do nas</p>
+                        <p class="contact__left-text"><a href="tel:+48661185226">+48 661-185-226</a></p>
+                    </div>
+                    <div class="contact__left">
+                        <p class="contact__left-circle"><i class="fa-solid fa-users"></i></p>
+                        <p class="contact__left-heading">Znajdź nas również</p>
+                        <p class="contact__left-text"><a href="https://www.linkedin.com/in/agnieszka-trojok-3b1334235/"
+                                target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a></p>
+                    </div>
+                </div>
+                <div class="contact__box contact__box-right"><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1306428.6866548462!2d17.883413002441113!3d50.24303115441042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ce5b8d29fe23%3A0xb0fe2f8aa0562457!2zxZpsxIVza2ll!5e0!3m2!1spl!2spl!4v1649065824686!5m2!1spl!2spl"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__box">
+            <p class="footer__box-text">&copy;<span class="footer__year"></span>Atmix - Agnieszka Trojok</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./dist/js/lightbox.js"></script>
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
