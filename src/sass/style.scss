@@ -209,7 +209,7 @@ html {
 		border-radius: 6px;
 		transition: background-color 0.3s, color 0.5s;
 		&:hover {
-			background-color: $light-main;
+			background-color: #a5baf8;
 			color: $pure-white;
 		}
 	}
@@ -363,7 +363,7 @@ html {
 		max-width: 1200px;
 		width: 100%;
 		margin: 0 auto;
-		padding: 3em 0;
+		padding: 2em 0;
 		overflow: hidden;
 	}
 	&__home {
@@ -432,21 +432,44 @@ html {
 			text-align: center;
 			font-size: 2.5rem;
 			text-transform: uppercase;
+			padding: 1em 0;
 		}
 		&-text {
 			padding: 1em;
 			font-size: 1.5rem;
+			text-align: center;
+			line-height: 3rem;
 		}
-		&-ul {
-			display: flex;
-			align-items: center;
-			flex-direction: column;
-			padding: 1em 0;
+	}
+	&__infos {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__info {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		margin: 2em 0;
+		width: 90%;
+		&-icon {
+			position: relative;
+			padding: 0 1em;
+			background-color: $light-main;
+			opacity: 0.5;
+			border-radius: 6px;
+			&--archive {
+				font-size: 5rem;
+			}
+		}
+		&-text {
 			ul {
-				list-style-type: none;
+				list-style: none;
 				font-size: 2rem;
-				padding: 0.5em 0;
-				text-align: center;
+				i {
+					margin-right: 0.5em;
+					color: $light-main;
+				}
 				li {
 					padding: 0.5em 0;
 				}
@@ -887,21 +910,16 @@ html {
 			&-heading {
 				padding: 2em 0;
 			}
-			&-ul {
-				justify-content: center;
-				flex-direction: row;
-				align-items: flex-start;
-				ul {
-					width: 30%;
-					margin: 0 0.5em;
-					border: 2px solid $light-main;
-					border-radius: 8px;
-					height: 100%;
-					li {
-						padding: 0.5em 1em;
-					}
-				}
-			}
+		}
+		&__infos {
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: flex-start;
+		}
+		&__info {
+			width: 45%;
+			margin: 1em 1em;
 		}
 	}
 	.services {
