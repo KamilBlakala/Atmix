@@ -20,7 +20,7 @@ To run this project, install it locally using npm:
 
 ```
 $ git clone https://github.com/KamilBlakala/Atmix.git
-$ npm -i
+$ npm install
 $ gulp
 ```
 ### or
