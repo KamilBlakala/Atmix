@@ -113,5 +113,3 @@ navBtn.addEventListener('click', handleNav);
 window.addEventListener('scroll', scroll);
 containerLeftBtn.addEventListener('click', leftBtnContainer);
 containerRightBtn.addEventListener('click', RightBtnContainer);
-// pricesItem1.addEventListener('click', item1Action);
-// pricesItem2.addEventListener('click', item2Action);

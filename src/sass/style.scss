@@ -599,7 +599,6 @@ html {
 			width: 100px;
 			margin: 0.5em auto;
 			font-size: 5rem;
-			// border: 1px solid black;
 			border-radius: 50%;
 			display: flex;
 			justify-content: center;
@@ -640,6 +639,7 @@ html {
 }
 .fa-linkedin {
 	font-size: 3rem;
+	color: $light-main;
 }
 // MEDIAQ
 @media (min-width: 320px) {
